@@ -35,5 +35,7 @@ I need the solution to follow the principles of _Atomic Design_
 
 ![Screenshot C](/docs/Screenshot-C.png)
 
+# Credits:
+
 Repo based on dtscher's awesome work here:
 https://github.com/dutscher/stencil-storybook
