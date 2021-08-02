@@ -10,6 +10,7 @@ The only requirement to complete this test is to code a solution to the [User St
 
 - Please _FORK_ this repository to a separate repo and submit your code to a branch named: `Test-<Your-Name>`. https://docs.github.com/en/get-started/quickstart/fork-a-repo
 - Do NOT submit or PR your code to this repository.
+- Upon completion of your work please send a link to the completed branch via email to `jbretz@dminc.com` and `jsligh@dminc.com`
 
 ## User Story
 
