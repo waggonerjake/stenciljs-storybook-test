@@ -25,15 +25,15 @@ I need the solution to follow the principles of _Atomic Design_
 
 ### Screenshot A
 
-[image:ACE3051A-EE3A-45D9-ACBC-FDDC292A4BC4-437-0000013F0906D732/84AE92FC-F6E1-4C58-9B0F-84FA529A7B0B.png]
+![Screenshot A](/docs/Screenshot-A.png)
 
 ### Screenshot B
 
-[image:B9179FD7-F9EB-40C0-B518-8C4447E22D71-437-00000144C0AA7DA4/A6934221-3A20-4499-B625-58FA0FAC2FF2.png]
+![Screenshot B](/docs/Screenshot-B.png)
 
 ### Screenshot C
 
-[image:CA5D7A24-7B7E-40F9-8B00-4FD3DE86EAC5-437-00000149D0D33256/D2E6D078-4DA2-40CA-9671-D6CB03F0B9E3.png]
+![Screenshot C](/docs/Screenshot-C.png)
 
 Repo based on dtscher's awesome work here:
 https://github.com/dutscher/stencil-storybook
