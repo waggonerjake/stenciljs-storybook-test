@@ -6,6 +6,11 @@ This test is a brief exercise to gauge the proficiency of a developer in skills 
 
 The only requirement to complete this test is to code a solution to the [User Story](bear://x-callback-url/open-note?id=E9F1205B-C1B0-472B-9D71-EAD156D392B5-29765-00000C46F34336AC&header=User%20Story) outlined in this document.
 
+## Submtting work
+
+- Please _FORK_ this repository to a separate repo and submit your code to a branch named: `Test-<Your-Name>`. https://docs.github.com/en/get-started/quickstart/fork-a-repo
+- Do NOT submit or PR your code to this repository.
+
 ## User Story
 
 As a user
