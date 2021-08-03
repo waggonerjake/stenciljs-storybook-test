@@ -1,0 +1,8 @@
+.text-area {
+  flex-grow: 1;
+}
+
+.text-container {
+  height: 40%;
+  display: flex;
+}

@@ -18,7 +18,7 @@ export class MyComponent {
 
   @Prop() modifier: string = '';
 
-  @Event({bubbles: false}) clicked!: EventEmitter<void>;
+  @Event({ bubbles: true }) clicked!: EventEmitter<void>;
 
   private getText(): string {
     return format(this.first, this.middle, this.last);
@@ -31,9 +31,7 @@ export class MyComponent {
     });
 
     return (
-      <Host
-        class={cssClasses}
-        onClick={() => this.clicked.emit()}>
+      <Host class={cssClasses} onClick={() => this.clicked.emit()}>
         Hello, World! I'm <span class={BEM(this, 'name')}> {this.getText()}</span>
       </Host>
     );
