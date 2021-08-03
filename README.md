@@ -45,3 +45,8 @@ I need the solution to follow the principles of _Atomic Design_
 
 Repo based on dtscher's awesome work here:
 https://github.com/dutscher/stencil-storybook
+
+# My Understanding:
+
+Essentially, Storybook is a sandbox for you to create UI components and Stencil is the tool used to create the
+UI components.
