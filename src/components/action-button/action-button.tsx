@@ -10,6 +10,7 @@ export class ActionButton {
 
   // eslint-disable-next-line class-methods-use-this
   private getText(): string {
+    // This function will throw a console error if ran outside of the full widget
     const textArea = document.querySelector('.text-area') as HTMLInputElement;
     return textArea.value;
   }

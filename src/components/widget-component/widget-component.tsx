@@ -9,8 +9,6 @@ export class Widget {
   @Listen('buttonClicked')
   listener(event: { detail: string }) {
     this.result = event.detail;
-    // eslint-disable-next-line no-console
-    console.log(this.result);
   }
 
   render() {
@@ -20,7 +18,7 @@ export class Widget {
         <text-area slot="text" />
         <action-button slot="button" />
         <directions-component slot="directions-2" directions="Results after Update:" />
-        <results-display slot="results" results={this.result as never} />
+        <results-display slot="results" results={this.result as never} /> {/* Don't understand why it needs to be cast to never */}
       </wrapper-component>
     );
   }
