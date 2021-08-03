@@ -1,4 +1,4 @@
-import { Component, h, Listen } from '@stencil/core';
+import { Component, Event, EventEmitter, h } from '@stencil/core';
 
 @Component({
   tag: 'wrapper-component',
@@ -6,17 +6,12 @@ import { Component, h, Listen } from '@stencil/core';
   shadow: false,
 })
 export class Wrapper {
-  @Listen('clickedButton')
-  // eslint-disable-next-line class-methods-use-this
-  actionButtonClicked(env: any) {
-    // eslint-disable-next-line no-console
-    console.log('clicked', env);
-  }
+  @Event() textSent: EventEmitter;
 
   render() {
     return (
       <div class="wrapper">
-        <slot name="directions-1" /> {/* Used to hold spots for the other elements */}
+        <slot name="directions-1" />
         <slot name="text" />
         <slot name="button" />
         <slot name="directions-2" />

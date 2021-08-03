@@ -1,9 +1,18 @@
-import { Component, h } from '@stencil/core';
+import { Component, h, Listen, Prop } from '@stencil/core';
 
 @Component({
   tag: 'widget-component',
 })
 export class Widget {
+  @Prop() result: string = 'Test';
+
+  @Listen('buttonClicked')
+  listener(event: { detail: string }) {
+    this.result = event.detail;
+    // eslint-disable-next-line no-console
+    console.log(this.result);
+  }
+
   render() {
     return (
       <wrapper-component>
@@ -11,7 +20,7 @@ export class Widget {
         <text-area slot="text" />
         <action-button slot="button" />
         <directions-component slot="directions-2" directions="Results after Update:" />
-        <results-display slot="results" />
+        <results-display slot="results" results={this.result as never} />
       </wrapper-component>
     );
   }

@@ -1,16 +1,12 @@
-import { Component, h, Prop, Host, Listen } from '@stencil/core';
+import { Component, h, Prop, Host } from '@stencil/core';
 
 @Component({
   tag: 'results-display',
   styleUrl: 'results-display.css',
+  shadow: false,
 })
 export class ResultsDisplay {
-  @Prop() results: string = 'Jake';
-
-  @Listen('numberOfClicks', { target: 'body' })
-  function(clickEvent) {
-    this.results = clickEvent;
-  }
+  @Prop() results: string = 'Test';
 
   render() {
     return (
